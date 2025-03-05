@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/arcade.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>StreetFighter-UNIR</title>
+</head>
+<body>
+    <h1 class="rotulo">To live is to fight, to fight is to live!</h1>
+    <table>
+        <tr>
+            <td colspan="4" class="cabeceratabla">Street Fighter</td>
+        </tr>
+        <tr>
+            <td><div class="personaje">Ken<img src="IMG/ken.png" alt=""></div></td>
+            <td><div class="personaje">Chun Li<img src="IMG/ChunLi.png" alt=""></div></td>
+            <td><div class="personaje">Zangief<img src="IMG/Zangief.png" alt=""></div></td>
+            <td><div class="personaje">Dhalsi<img src="IMG/Dhalsim.png" alt=""></div></td>
+        </tr>
+        <tr>
+            <td><div class="personaje">Ry<img src="IMG/Ryu.png" alt=""></div></td>
+            <td><div class="personaje">E Honda<img src="IMG/EHonda.png" alt=""></div></td>
+            <td><div class="personaje">Blanka<img src="IMG/Blanka.png" alt=""></div></td>
+            <td><div class="personaje">Guille<img src="IMG/Guille.png" alt=""></div></td>
+        </tr>
+        <tr>
+            <td><div class="personaje">T Hawk<img src="IMG/THawk.png" alt=""></div></td>
+            <td><div class="personaje">Feilong<img src="IMG/Feilong.png" alt=""></div></td>
+            <td><div class="personaje">Dee Jay<img src="IMG/DeeJay.png" alt=""></div></td>
+            <td><div class="personaje">Cammy<img src="IMG/Cammy.png" alt=""></div></td>
+        </tr>
+        <tr>
+            <td><div class="personaje">Balrog<img src="IMG/Balrog.png" alt=""></div></td>
+            <td><div class="personaje">Vega<img src="IMG/Vega.png" alt=""></div></td>
+            <td><div class="personaje">Sagat<img src="IMG/Sagat.png" alt=""></div></td>
+            <td><div class="personaje">M Bison<img src="IMG/MBison.png" alt=""></div></td>
+        </tr>
+    </table>
+    <p><h2 class="rotuloform">Formulario de Inscripción para jugar al Street Fighter</h2> </p>
+    <form action="" method="post" name="Formulario de Inscripción para jugar al Street Fighter">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>Nombre:</p>
+            <input type="text" name="nombre" id="">
+            <p>Apellidos:</p>
+            <input type="text" name="apellidos" id="">
+            <p>Dirección postal:</p>
+            <input type="text" name="calle" id="" placeholder="Calle">
+            <input type="text" name="nº" id="" placeholder="Nº">
+            <input type="text" name="piso" id="" placeholder="Piso">
+            <input type="text" name="codigopostal" id="" placeholder="Cód Postal">
+            <input type="text" name="ciudad" id="" placeholder="Ciudad">            
+            <p>Nick:</p>
+            <input type="text" name="nick" id="">
+            <p>Correo Electrónico:</p>
+            <input type="email" name="email" id=""> 
+        </fieldset>
+        <fieldset>
+            <legend>Sexo usuario</legend>
+            <div class="opcionesformulario">
+                <label><input type="radio" name="sexo" id="" value="Hombre"> Hombre</label>
+                <label><input type="radio" name="sexo" id="" value="Mujer"> Mujer</label>
+                <label><input type="radio" name="sexo" id="" 
+                    value="Prefiero no decir"> Prefiero no decir </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            Fecha nacimiento: <input type="date" name="fechanac" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Personajes</legend>
+            Selecciona el personaje: <input type="text" name="personajes" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea name="comentarios" id=""></textarea>
+        </fieldset>
+        
+        <input type="submit" value="Enviar" id="botones">
+        <input type="reset" value="Borrar" id="botones">
+    </form>  
+</body>
+</html>

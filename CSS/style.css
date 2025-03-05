@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Street;
+    src: url("../Font/street.otf");
+}
+
+body{
+    background-image: url(../IMG/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rotulo{
+    font-family: "Street"; color: crimson;
+    text-align: center;
+    font-size: 46px;
+}
+
+table{
+    font-family: "Street"; color: crimson;
+    background-color: black;
+    border-radius: 10px;
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    border: 10px outset rgb(237,175,5);
+    margin:auto
+}
+
+tr,td{
+    font-family: "Street"; color: darkorange;
+    font-size: 18px;
+    font-weight: bold;
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.cabeceratabla{
+    background-image: url(../IMG/fondocabecera.jpg);
+    background-size: auto;
+    font-family: "Street"; color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.rotuloform{
+    font-family: "Street"; color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+form{
+    color: white;
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237,175,5);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-family: Verdana;
+    margin: auto;
+
+}
+
+legend{
+    font-family: Street;
+    font-size: 14px;
+    color: rgb(237,175,5);
+}
+
+textarea{
+    width: 560px;
+    height: 300px;
+}
+
+#botones{
+    font-family: Street;
+    font-size: 18px;
+    color: white;
+    border: 1px solid crimson;
+    background-color: crimson;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
